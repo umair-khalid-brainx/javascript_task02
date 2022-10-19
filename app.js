@@ -4,7 +4,6 @@ const tasks_list = document.querySelector('.tasks_list');
 
 // creating a new todo task template
 const createNewTask = (todo, element) => {
-
     // no element passed means create all new template
     if (element == null) {
         tasks_list.innerHTML += `
